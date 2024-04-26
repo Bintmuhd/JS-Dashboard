@@ -152,6 +152,7 @@ b {
 .logo {
   display: flex;
   gap: 1rem;
+  color: var(--clr-dark);
 }
 
 /***************
@@ -223,6 +224,9 @@ Sidebar
 /***************
 Dashboard Main
 ****************/
+.dash_text {
+  color: var(--clr-dark);
+}
 main {
   margin-top: 1.4rem;
   width: auto;

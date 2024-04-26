@@ -1,13 +1,13 @@
-// alert("Hello, world!");
-
 const sideMenu = document.querySelector(".aside");
 const menuBtn = document.querySelector("#menu_bar");
 const closeBtn = document.querySelector("#close_btn");
+const test = document.querySelector("#active_btn");
 
 const themeToggler = document.querySelector(".theme-toggler");
 
+const activeMenu = document.querySelector("  .aside .sidebar a");
+
 menuBtn.addEventListener("click", () => {
-  console.log("Button clicked!");
   sideMenu.style.display = "block";
 });
 
@@ -15,11 +15,10 @@ closeBtn.addEventListener("click", () => {
   sideMenu.style.display = "none";
 });
 
+themeToggler.addEventListener("click", () => {
+  document.body.classList.toggle("dark-theme-variables");
+  themeToggler.querySelector("span:nth-child(1)").classList.toggle("active");
+  themeToggler.querySelector("span:nth-child(2)").classList.toggle("active");
+});
 
-themeToggler.addEventListener("click",() => {
-    
-    document.body.classList.toggle("dark-theme-variables")
-    themeToggler.querySelector("span:nth-child(1)").classList.toggle("active")
-    themeToggler.querySelector("span:nth-child(2)").classList.toggle("active")
 
-})
