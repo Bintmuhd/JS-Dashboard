@@ -190,11 +190,11 @@ Sidebar
   transition: all 0.1s ease-in;
 }
 
-.aside .sidebar a:last-child {
+/* .aside .sidebar a:last-child {
   position: absolute;
   bottom: 1rem;
   width: 100%;
-}
+} */
 
 .aside .sidebar a.active {
   background: var(--clr-light);
