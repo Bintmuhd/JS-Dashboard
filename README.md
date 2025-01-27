@@ -1,5 +1,5 @@
-# JS-Dashboard
+# JS-In-Motion
 A dashboard showing 30 vanilla javascript app/features
 
-[JS In Motion](https://the-js-dashboard.netlify.app)
+Explore it [JS In Motion](https://the-js-dashboard.netlify.app)
 
